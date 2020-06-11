@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{35C99EA6-A917-46C7-BBD9-86CFB5BB558F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MlbbX1Calculator</RootNamespace>
+    <AssemblyName>MlbbX1Calculator</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Heroi.cs" />
+    <Compile Include="Classes\Heróis\Angela.cs" />
+    <Compile Include="Classes\Heróis\Dyrroth.cs" />
+    <Compile Include="Classes\Heróis\Estes.cs" />
+    <Compile Include="Classes\Heróis\Gord.cs" />
+    <Compile Include="Classes\Heróis\Guinevere.cs" />
+    <Compile Include="Classes\Heróis\Harley.cs" />
+    <Compile Include="Classes\Heróis\Hylos.cs" />
+    <Compile Include="Classes\Heróis\Kaja.cs" />
+    <Compile Include="Classes\Heróis\Layla.cs" />
+    <Compile Include="Classes\Heróis\Lylia.cs" />
+    <Compile Include="Classes\Heróis\Rafaela.cs" />
+    <Compile Include="Classes\Heróis\Silvana.cs" />
+    <Compile Include="Classes\Heróis\Terizla.cs" />
+    <Compile Include="Classes\Heróis\Thamuz.cs" />
+    <Compile Include="Classes\Heróis\Wanwan.cs" />
+    <Compile Include="Classes\Heróis\Zilong.cs" />
+    <Compile Include="Classes\Item.cs" />
+    <Compile Include="Classes\Itens\LaminaDoDesespero.cs" />
+    <Compile Include="Classes\Itens\VozDoVento.cs" />
+    <Compile Include="Classes\Stats.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Layla.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zilong.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Terizla.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dyrroth.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wallpaper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aldous.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alice.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alucard.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Angela.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aurora.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Badang.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Balmond.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bane.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Baxia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Belerick.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chang.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chou.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Claude.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Clint.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Esmeralda.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eudora.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fanny.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Faramis.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Franco.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Freya.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gatotkaca.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gord.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Granger.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grock.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Guinevere.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gusion.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hanabi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Harith.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Harley.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hayabusa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Helcurt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hylos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Irithel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jawhead.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kadita.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kagura.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kaja.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Karina.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Karrie.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Khufra.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kimmy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lancelot.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lapu-Lapu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Leomord.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lesley.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lolita.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lunox.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lylia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Martis.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Masha.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minotauro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minsithar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Myia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Natalia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pharsa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rafaela.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Roger.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ruby.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Saber.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Selena.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Silvana.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sun.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thamuz.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tigreal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Uranus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vale.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Valir.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vexana.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wanwan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\XBorg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yi Sun-shin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zhask.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
