@@ -1,0 +1,12 @@
+Aluno: Eric Monteiro Galotti de Souza
+
+Este projeto não está terminado
+A intenção é de usar este trabalho como um futuro projeto a ser usado na prática
+Se trata de uma ferramenta auxiliar para um jogo
+Ainda não estão inseridos todos os heróis e todos os itens
+O projeto cumpre os requisitos para ser apresentado como trabalho de Programação Orientada a objetos
+Existem mais de 10 classes como requerido sendo, havendo:
+- Herança: A classe Stats é pai das classes Heróis e Itens, sendo que dentro dessas duas existem diversas outras classes filhas
+- Polimorfismo: Dentro da classe Herói existe a sobrecarga do método receberDano() que se refere a dois tipos de dano que os heróis podem causas
+		Dentro das classes dos heróis Dyrroth e Terizla existe a sobrescrita do método atacar que apresentam cálculos diferentes dos outros heróis
+		Todas as classes possuem seus atributos, propriedades e métodos

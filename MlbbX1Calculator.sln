@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MlbbX1Calculator", "MlbbX1Calculator\MlbbX1Calculator.csproj", "{35C99EA6-A917-46C7-BBD9-86CFB5BB558F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35C99EA6-A917-46C7-BBD9-86CFB5BB558F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35C99EA6-A917-46C7-BBD9-86CFB5BB558F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35C99EA6-A917-46C7-BBD9-86CFB5BB558F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35C99EA6-A917-46C7-BBD9-86CFB5BB558F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F07296EC-0132-40EE-B6C6-D7B7A5A720AA}
+	EndGlobalSection
+EndGlobal
