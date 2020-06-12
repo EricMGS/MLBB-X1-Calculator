@@ -1,0 +1,10 @@
+C:\Users\user\Desktop\MlbbX1Calculator\MlbbX1Calculator\obj\Debug\MlbbX1Calculator.csprojAssemblyReference.cache
+C:\Users\user\Desktop\MlbbX1Calculator\MlbbX1Calculator\obj\Debug\MlbbX1Calculator.frmPrincipal.resources
+C:\Users\user\Desktop\MlbbX1Calculator\MlbbX1Calculator\obj\Debug\MlbbX1Calculator.Properties.Resources.resources
+C:\Users\user\Desktop\MlbbX1Calculator\MlbbX1Calculator\obj\Debug\MlbbX1Calculator.csproj.GenerateResource.cache
+C:\Users\user\Desktop\MlbbX1Calculator\MlbbX1Calculator\obj\Debug\MlbbX1Calculator.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\MlbbX1Calculator\MlbbX1Calculator\bin\Debug\MlbbX1Calculator.exe.config
+C:\Users\user\Desktop\MlbbX1Calculator\MlbbX1Calculator\bin\Debug\MlbbX1Calculator.exe
+C:\Users\user\Desktop\MlbbX1Calculator\MlbbX1Calculator\bin\Debug\MlbbX1Calculator.pdb
+C:\Users\user\Desktop\MlbbX1Calculator\MlbbX1Calculator\obj\Debug\MlbbX1Calculator.exe
+C:\Users\user\Desktop\MlbbX1Calculator\MlbbX1Calculator\obj\Debug\MlbbX1Calculator.pdb
